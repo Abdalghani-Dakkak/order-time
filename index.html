@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrderTime</title>
+  <link rel="stylesheet" href="./assets/plugins/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/plugins/bootstrap-icons-1.11.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/plugins/fontawesome-free-6.4.2-web/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/OrderTime.css">  
+</head>
+<body>
+  <div class="row p-1 p-sm-3 ps-sm-4 pe-sm-4 m-0">
+    <aside class="p-2 pt-3" id="aside">
+      <h1 class="fs-3 fw-medium m-0 mb-5 logo"><i class="fa-solid fa-clock fa-xl"></i> <span class="effect">Order<span class="fw-bolder">Time</span></span></h1>
+      <ul class="p-0">
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2">
+          <div class="dropdown">
+            <a class="fs-4 fw-medium dropdown-label d-inline-block w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-grid-fill"></i> <span class="effect">Dashboard<i class="fa-solid fa-angle-down float-end pt-2"></i></span>
+            </a>
+            <ul class="dropdown-menu position-relative border-0 p-0">
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0 aside-active" href="./index.html">
+                  <i class="fa-solid fa-house"></i> Home
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="./activities.html">
+                  <i class="fa-regular fa-circle"></i> Activities
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Activity
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Lot or Serial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2"> 
+          <div class="dropdown">
+            <a class="fs-4 fw-medium dropdown-label d-inline-block w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-chart-line"></i> <span class="effect">Sales<i class="fa-solid fa-angle-down float-end pt-2"></i></span>
+            </a>
+            <ul class="dropdown-menu position-relative border-0 p-0">
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-house"></i> Home
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-regular fa-circle"></i> Activities
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Activity
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Lot or Serial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2">
+          <div class="dropdown">
+            <a class="fs-4 fw-medium dropdown-label d-inline-block w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-wallet"></i> <span class="effect">Purchasing<i class="fa-solid fa-angle-down float-end pt-2"></i></span>
+            </a>
+            <ul class="dropdown-menu position-relative border-0 p-0">
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-house"></i> Home
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-regular fa-circle"></i> Activities
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Activity
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Lot or Serial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2"> 
+          <div class="dropdown">
+            <a class="fs-4 fw-medium dropdown-label d-inline-block w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-wallet-fill"></i> <span class="effect">Production<i class="fa-solid fa-angle-down float-end pt-2"></i></span>
+            </a>
+            <ul class="dropdown-menu position-relative border-0 p-0">
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-house"></i> Home
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-regular fa-circle"></i> Activities
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Activity
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Lot or Serial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2">
+          <div class="dropdown">
+            <a class="fs-4 fw-medium dropdown-label d-inline-block w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bookmark"></i> <span class="effect">Warehouse<i class="fa-solid fa-angle-down float-end pt-2"></i></span>
+            </a>
+            <ul class="dropdown-menu position-relative border-0 p-0">
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-house"></i> Home
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-regular fa-circle"></i> Activities
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Activity
+                </a>
+              </li>
+              <li class="p-3 ps-0 summary-items p-2">
+                <a class="dropdown-item d-inline-block w-100 p-0" href="#">
+                  <i class="fa-solid fa-circle-notch"></i> Lot or Serial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="pt-3 pb-3 ps-0 pe-0 p-lg-3 ps-lg-0 mb-2">
+          <a href="#" class="d-inline-block w-100 pb-3 fs-4 fw-medium report">
+            <i class="fa-solid fa-chart-pie"></i> <span class="effect">Report</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <div class="p-2" id="navAndContainer">
+      <nav class="navbar navbar-expand p-0">
+        <div class="container-fluid p-0 pb-4">
+          <button onclick="asideEffect()" class="border-0 bg-transparent ms-3 me-5 d-none d-lg-block aside-toggler" id="asideBtn">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </button>
+          <form class="ms-lg-5 d-none d-sm-inline" role="search">
+            <input id="searchInput" class="form-control border-0 p-2 ps-3 pe-3" type="search" placeholder="&#xf002; Search..." aria-label="Search" style="font-family:Arial, FontAwesome">
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item dropdown d-inline-block me-2">
+              <a class="nav-link rounded-circle p-3 dropdown-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bell fa-xl"></i>
+              </a>
+              <ul class="dropdown-menu p-0 nav-menus">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown d-inline-block ms-2 me-2">
+              <a class="nav-link rounded-circle p-3 dropdown-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-message fa-xl"></i>
+              </a>
+              <ul class="dropdown-menu p-0 nav-menus">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-2 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-calendar-day fa-2xl"></i>
+                      </div>
+                      <div class="col-10">
+                        <h2>Event today</h2>
+                        <p>Just a reminder that event</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-2 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-gear fa-2xl"></i>
+                      </div>
+                      <div class="col-10">
+                        <h2>Settings</h2>
+                        <p>You can customize this templates</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-2 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-user fa-2xl"></i>
+                      </div>
+                      <div class="col-10">
+                        <h2>Pavan kumar</h2>
+                        <p>Just see the my admin</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-2 d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-paperclip fa-2xl"></i>
+                      </div>
+                      <div class="col-10">
+                        <h2>Luanch Admin</h2>
+                        <p>Just see the my new admin</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown d-inline-block ms-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="d-inline-block avatar">
+                  <img class="w-100" src="./assets/img/Avatar-Profile-Vector-PNG-Cutout.png" alt="">
+                </div>
+                <p class="d-none d-md-inline">Abdalghani</p>
+              </a>
+              <ul class="dropdown-menu p-0 nav-menus">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    My Profile
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-wallet"></i>
+                    My Balance
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    Inbox
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    Account Setting
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-power-off"></i>
+                    Logout
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="rounded p-3 d-flex flex-column" id="mainOfHome">
+        
+      </main>
+    </div>
+  </div>
+
+  <script src="./assets/plugins/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  <script src="./assets/plugins/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+  <script src="./assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script src="./assets/js/OrderTime.js"></script>
+</body>
+</html>
